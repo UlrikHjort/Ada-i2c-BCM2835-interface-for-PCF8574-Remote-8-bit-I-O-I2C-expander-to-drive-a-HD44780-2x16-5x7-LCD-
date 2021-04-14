@@ -154,7 +154,7 @@ package body HD44780 is
       J := 1;
       Write_Cmd(Line_1);
 	for I in S'First .. S'Last loop
-	if J = 16 then
+	if J = LINE_LENGTH then
 	   Write_Cmd(Line_2);
 	end if;
 	J := J +1;
