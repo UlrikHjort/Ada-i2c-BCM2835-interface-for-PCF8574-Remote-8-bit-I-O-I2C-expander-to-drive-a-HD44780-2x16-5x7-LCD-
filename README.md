@@ -12,6 +12,12 @@ Bindings of the bcm2835 i2c interface for raspberry pi; The following functions 
 See **i2c.adb** and **i2c.ads**  and https://www.raspberrypi.org/documentation/hardware/raspberrypi/bcm2835/BCM2835-ARM-Peripherals.pdf for details
 
 
+## Hardware:
+* PCF8574 Remote 8-bit I/O I2C expander
+* Hitachi HD44780 2x16 5x7 LCD display
+* Raspberry Pi 3 Model B+
+
+
 ## Wiring:
 I2c device 1 is used.
 
@@ -38,4 +44,7 @@ make
 
 sudo make check
 
-sudo make install
+sudo make install## Hardware:
+* PCF8574 Remote 8-bit I/O I2C expander
+* Hitachi HD44780 2x16 5x7 LCD display
+* Raspberry Pi 3 Model B+
